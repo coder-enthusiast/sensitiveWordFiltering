@@ -53,7 +53,7 @@ public class DFA {
     public String test(){
         return dfa.dfaMap(dfa.init()).toString();
     }
-    public DFA getDFA(){
+    public static DFA getDFA(){
         return dfa;
     }
     public static void main(String[] args) {
